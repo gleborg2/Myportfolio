@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<body>
+<div class="box">
+	<nav class="nav">
+		
+		<h1 class="box_h1">Hungry<b>.</b></h1>
+			<p>Home</p>
+			<p>Blog</p>
+			<p>Features</p>
+			<p>Testionals</p>
+		<div class="click">
+	<input type="checkbox" id="switch" />
+	<label for="switch"><span>Dark</span><span>Light</span></label>	
+</div>
+	</nav>
+	<header class="header">
+		<div class="header_cl1">
+			<h1 class="header_h1">Your Favourite Food delivery Partner.</h1>
+			<h2>Food Delivery is a thriving business and there are many opportunities for this Businesses as its Growing.</h2>
+			<div class="header_sect">
+				<img src="./img/playm.png">
+				<img src="./img/appstore.png">
+			</div>
+		</div>
+		<div class="header_cl2">
+			<img class="head_img1" src="./img/telef1.png">
+			<img class="head_img2" src="./img/telef2.png">
+		</div>
+
+	</header>
+	<main></main>
+</div>
+<script >
+ $("#switch").click(function(){
+ $("*").toggleClass("light") 
+})
+</script>
+</body>
+</html>

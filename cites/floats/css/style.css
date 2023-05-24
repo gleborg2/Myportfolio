@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+.box{
+	width:85%;
+	margin: 0 auto;
+	font-family: monospace;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	background: #1DC22E;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav_p{
+	margin-left: 70px;
+	font-size: 22px;
+
+}
+.button_nav{
+	width: 120px;
+	height: 45px;
+	background: green;
+	margin-left: 70px;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 4px;
+}
+header{
+	width: 100%;
+	height: 938px;
+	background: url(../img/fonheader.png);
+	display:flex;
+}
+.section_header{
+	width: 50%;
+	height: 690px;
+	flex-wrap: nowrap;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 16%;
+	padding-top: 10%;
+}
+.h_header{
+	font-size: 60px;
+}
+.p_header{
+	text-align: left;
+	flex-wrap: wrap;
+	font-size: 25px;
+}
+.button_header{
+	width: 175px;
+	height: 45px;
+	font-size: 20px;
+	background: green;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+.img_header{
+	width:  50%;
+	height: 690px;
+	
+}
+.img_h{
+	width: 105%;
+	height:867px;
+	margin-right: 40px;
+}
+b{
+	color: green;
+	font-family: cursive;
+}
+main{
+	width: 100%;
+	height: 400px;
+	padding-left: 13%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.main_img{
+	width: 70px;
+	height: 70px;
+}
+.main_1{
+	width: 20%;
+	height: 200px;
+	text-align: center;
+}
+.main_2{
+	width: 20%;
+	height: 200px;
+	text-align: center;
+}
+.main_3{
+	width: 20%;
+	height: 200px;
+	text-align: center;
+}
+.main_p{
+	font-size: 17px;
+	margin-top: 10px;
+}
+section{
+	width: 100%;
+	height: 457px;
+	display: flex;
+	padding-right: 12%;
+	padding-left: 12%;
+  }
+.img_sec{
+	width: 50%;
+	height: 457px;
+}
+.sec_text{
+	width: 50%;
+	height: 457px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.sec_class{
+	font-size: 50px;
+	flex-wrap: wrap;
+	text-align: left;
+	padding-right: 10%;
+}
+.sec_p{
+	font-size: 23px;
+	flex-wrap: wrap;
+}
+h2{
+	font-size: 25px;
+}
+.button_sec{
+	width: 120px;
+	height: 45px;
+	background: green;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 4px;
+}

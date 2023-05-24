@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+
+.box_h1{
+	font-size: 33px;
+}
+b{
+	color: blue;
+}
+p{
+	font-size: 25px;
+	font-family: monospace;
+}
+
+.head_img1{
+	width: 40%;
+	height: 550px;
+		position: relative;
+	left: 100px;
+}
+.head_img2{
+	width: 30%;
+	height: 420px;
+	margin-bottom: 55px;
+}
+.header_cl1{
+	width: 50%;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: left;
+	padding: 50px;
+	
+}
+.header_h1{
+	font-size: 40px;
+}
+.header_cl2{
+	width: 50%;
+	height: 550px;
+
+}
+main{
+	width: 100%;
+	height: 400px;
+}
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+label {
+	cursor: pointer;
+	/*text-indent: -9999px;*/
+	width: auto;
+	height: 40px;
+	background: #1F98F0;
+	display: block;
+	border-radius: 40px;
+	position: relative;
+	font-size: 16px;
+	padding: 0 10px;
+	line-height: 40px;
+}
+label span {
+	color: black;
+	position: relative;
+	margin: 0 10px;
+}
+label span:nth-child(2){
+	color:white;
+}
+label:before {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 50%;
+	height: 30px;
+	background: #fff;
+	border-radius: 40px;
+	transition: 0.3s;
+	z-index:0;
+}
+input:checked + label {
+	background: black;
+}
+input:checked + label span:nth-child(2) {
+	color:black;
+}
+input:checked + label span:nth-child(1) {
+	color:white;
+}
+
+input:checked + label:before {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:before {
+	width: 100px;
+}
+
+// centering
+.click {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	width:100%;
+	background: black;
+	color:white;
+	float:left;
+}
+.box.light{
+	background: white;
+}
+
+.nav{
+	width: 100%;
+	height: 120px;
+	padding-left: 14%;
+	padding-right: 14%;
+	flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background:black;
+}
+.nav.light{
+background: #1F98F0;
+}
+.header{
+	width: 100%;
+	height: 550px;
+	display: flex;
+	padding-left: 14%;
+	padding-right: 14%;
+	font-family: monospace;
+	background:black;
+}
+.header.light{
+	background: #1F98F0;
+}

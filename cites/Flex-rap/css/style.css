@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+.box{
+	width: 75%;
+
+	margin:0 auto;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: lightgray;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: monospace;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.nav_item{
+	width: 10%;
+	height: 40px;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 24px;
+	font-family: monospace;
+}
+.nav_item:hover{
+	color: blue;
+	background: gray;
+}
+main{
+	width:100%;
+	height: 450px;
+	background: orange;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.main_1{
+	width: 30%;
+	height: 400px;
+    background: yellow;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    font-family: monospace;
+}
+.h2_m{
+	font-size: 20px;
+	border-bottom: 1px solid black;
+}
+.main_im{
+	width:60%;
+	height:400px;
+	background: green;
+	color: white; 
+	font-family: monospace;
+	text-align: center;
+}
+.slider{
+	font-family: cursive;
+}
+.slider:nth-child(1){
+		background: url(../img/doma.jpg);
+}
+.slider:nth-child(2){
+		background: url(../img/korabl.jpg);
+}
+.slider:nth-child(3){
+	background:  url(../img/maladoy.jpg);
+}
+aside{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.aside_item{
+	width: 22%;
+	height: 290px;
+	overflow: scroll;
+}
+.img1{
+	width: 100%;
+	height: 200px;
+}
+
+.div_h{
+	width: 100%;
+	text-align: center;
+	color: orange;
+}
+.h_h1{
+	width: 100%;
+	height: 50px;
+	font-family: monospace;
+
+}
+b{
+	font-size: 17px;
+	color: gray;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background: gray;
+	text-align: center;
+}

@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	border: 0;
+}
+.box{
+	width: 70%;
+
+
+	border: 2px solid black;
+	margin: 0 auto;
+}
+nav{
+  width: 100%;
+  height: 120px;
+
+  border-top: 20px solid green;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 40px;
+}
+header{
+	width: 100%;
+	height: 640px;
+    background: url(../img/baby.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.button_header{
+height: 48px;
+width: 153px;
+position: absolute;
+left: 890px;
+bottom: 390px;
+border-radius: 24px;
+text-align: center;
+padding-top: 13px;
+	background: lightgreen;
+    margin: 0 auto;
+}
+h1{
+	text-align: center;
+	margin-bottom: 140px;
+}
+.P_header{
+	text-align: center;
+	color: green;
+	margin-bottom: 10px;
+	 display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+	float: left;
+	font-family: monospace;
+
+}
+h3{
+
+font-size: 30px;
+font-family: monospace;
+margin-left: 80px;
+
+}
+.button_frame{
+	height: 40px;
+width: 112px;
+left: 0px;
+top: 0px;
+border-radius: 20px;
+background: white;
+float: left;
+margin-top: 30px;
+padding-top: 5px;
+text-align: center;
+}
+.frame_img{
+	float: left;
+
+}
+.box_frame{
+	height: 188px;
+width: 550px;
+border-radius: 16px;
+background: orange;
+float: left;
+
+}
+.frame{
+height: 341px;
+width: 100%;
+background: lightgray;
+padding: 75px;
+float: left;
+}
+.box_frame1{
+	height: 188px;
+width: 550px;
+border-radius: 16px;
+background: pink;
+float: left;
+margin-left: 60px;
+}
+.P_nav{
+	float: left;
+	margin-top: 7px;
+	text-align: center;
+	margin-left: 40px;
+	font-family: monospace;
+}
+
+.box_header{
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	background: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.properties{
+	height: 750px;
+width: 100%;
+background: lightgray;
+padding-left: 2.4%;
+padding-top:2%;
+}
+.sections{
+height: 328px;
+width: 270px;
+border-radius: 16px;
+background: white;
+text-align: center;
+float: left;
+margin-left: 40px;
+}
+.prop_h2{
+	text-align: center;
+	margin-left: 80px;
+}
+.green_but{
+height: 24px;
+width: 92px;
+border-radius: 16px;
+background: orange;
+color: white;
+margin:0 auto;
+margin-top: 60px;
+}
+.sections{
+height: 328px;
+width: 270px;
+border-radius: 16px;
+background: white;
+margin-top: 20px;
+text-align: center;
+float: left;
+margin-left: 40px;
+
+}
+.prop_h2{
+	text-align: center;
+	margin-left: 80px;
+}
+.green_but{
+height: 24px;
+width: 92px;
+border-radius: 16px;
+background: orange;
+color: white;
+margin:0 auto;
+margin-top: 60px;
+}
+.sections{
+height: 328px;
+width: 270px;
+border-radius: 16px;
+background: white;
+margin-top: 20px;
+text-align: center;
+float: left;
+margin-left: 40px;
+
+}
+.prop_h2{
+	text-align: center;
+	margin-left: 80px;
+}
+.green_but{
+height: 24px;
+width: 92px;
+border-radius: 16px;
+background: orange;
+color: white;
+margin:0 auto;
+margin-top: 60px;
+}
+.sections{
+height: 328px;
+width: 270px;
+border-radius: 16px;
+background: white;
+margin-top: 20px;
+text-align: center;
+float: left;
+}
+.prop_h2{
+	text-align: center;
+	margin-left: 80px;
+}
+.green_but{
+height: 24px;
+width: 92px;
+border-radius: 16px;
+background: orange;
+color: white;
+margin:0 auto;
+margin-top: 60px;
+}
+.sections{
+height: 328px;
+width: 270px;
+border-radius: 16px;
+background: white;
+margin-top: 20px;
+text-align: center;
+float: left;
+}
+.prop_h2{
+	text-align: center;
+	margin-left: 80px;
+}
+.green_but{
+height: 24px;
+width: 92px;
+border-radius: 16px;
+background: orange;
+color: white;
+margin:0 auto;
+margin-top: 60px;
+}
+section{
+	height: 162px;
+width: 100%;
+background: orange;
+font-size: 40px;
+font-family: monospace;
+text-align: center;
+padding-top: 40px;
+}
+main{
+	height: 608px;
+width: 100%;
+
+
+}
+.ga{
+	width: 50%;
+	height: 608px;
+    float: left;
+margin-top:150px;
+
+}
+.ha{
+	width: 50%;
+	height: 608px;
+	float: left;
+	text-align: center;
+}
+.kids{
+	height: 422px;
+width: 570px;
+margin-top: 100px;
+border-radius: 16px;
+
+}
+.ga_h{
+	font-size: 40px;
+	text-align: left;
+	margin-left: 40px;
+    font-family: monospace;
+}
+.ga_p{
+	height: 96px;
+    width: 432px;
+	text-align: left;
+	margin-left: 40px;
+	font-family: monospace;
+    
+}
+.button_ga{
+height: 48px;
+width: 139px;
+border-radius: 24px;
+background: green;
+color:white;
+text-align: center;
+padding-top: 10px;
+margin-left: 40px;
+}
+footer{
+	height: 150px;
+width: 100%;
+background: green;
+color: white;
+padding-top: 50px;
+clear: both;
+text-align: center;
+}
+.P_nav1{
+	float: left;
+    
+    font-size: 27px;
+	margin-left: 140px;
+	font-family: monospace;
+}
+
